@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "teaching_mode": "socratic",
+    "total_messages": 3,
+    "total_tokens": 73,
+    "model": "gpt-4o",
+    "last_updated": "2026-03-09T19:03:15.408464"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "What would you like to explore today? Ask me about venture capital, fundraising, valuation, or term sheets.",
+      "timestamp_start": "2026-03-09T19:02:57.960155",
+      "timestamp_end": "2026-03-09T19:02:57.960158",
+      "tokens": 0
+    },
+    {
+      "role": "user",
+      "content": "Whats up?",
+      "timestamp_start": "2026-03-09T19:03:11.679556",
+      "timestamp_end": "2026-03-09T19:03:11.679556",
+      "tokens": 3
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm here to help you explore topics related to venture capital funding. Is there a specific aspect of the venture capital process or a concept you're curious about today?",
+      "timestamp_start": "2026-03-09T19:03:11.682763",
+      "timestamp_end": "2026-03-09T19:03:15.407021",
+      "tokens": 33
+    }
+  ]
+}

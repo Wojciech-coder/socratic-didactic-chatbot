@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "teaching_mode": "didactic",
+    "total_messages": 1,
+    "total_tokens": 29,
+    "model": "gpt-4o",
+    "last_updated": "2026-03-09T19:10:03.247362"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "What would you like to explore today? Ask me about venture capital, fundraising, valuation, or term sheets.",
+      "timestamp_start": "2026-03-09T19:10:03.234528",
+      "timestamp_end": "2026-03-09T19:10:03.234531",
+      "tokens": 0
+    }
+  ]
+}
