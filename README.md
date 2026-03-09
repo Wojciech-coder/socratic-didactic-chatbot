@@ -45,6 +45,14 @@ A Streamlit chatbot for the **Venture Capital Funding** course (Kozminski Univer
    ```
    Open the URL shown (usually http://localhost:8501).
 
+## Deployment on Streamlit Cloud
+
+1. **Connect your GitHub repo** to [Streamlit Cloud](https://share.streamlit.io).
+2. **Set the OpenAI API key as a secret:**
+   - In your Streamlit Cloud app settings, go to "Secrets".
+   - Add: `OPENAI_API_KEY = "sk-your-actual-key-here"`
+3. **Deploy** the app. It will automatically use the secret for the API key.
+
 ## License
 
 Use as needed for the course. Ensure your use of the OpenAI API complies with OpenAI’s terms of use.
