@@ -23,8 +23,12 @@ from openai import APIConnectionError, APIError, OpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-# Configure OpenAI API — use placeholder in .env until you add your key
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Configure OpenAI API — use Streamlit secrets for deployment, fallback to .env for local
+api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+if not api_key:
+    st.error("OpenAI API key not found. Please set OPENAI_API_KEY in Streamlit secrets (for deployment) or in a .env file (for local development).")
+    st.stop()
+client = OpenAI(api_key=api_key)
 
 # Constants / Configuration
 MODEL = "gpt-4o" 
